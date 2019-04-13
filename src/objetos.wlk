@@ -40,8 +40,8 @@ object munieco {
 }
 
 object placa {
-	var _color
-	var _peso 
+	var _color = rojo
+	var _peso = 2400
 	
 	method color() { return _color }
 	method setColor(color) { _color = color }
